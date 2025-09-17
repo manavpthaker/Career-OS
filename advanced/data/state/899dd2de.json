@@ -1,0 +1,19 @@
+{
+  "job_id": "899dd2de",
+  "job_url": "https://jobs.ashbyhq.com/magicschool/4454362c-fbbc-49fc-be52-dfb638615a05",
+  "company": "Unknown",
+  "role": "Product Manager",
+  "status": "failed",
+  "workflow_type": "director_level",
+  "created_at": "2025-09-15T17:34:57.598904",
+  "updated_at": "2025-09-15T17:38:58.601968",
+  "research_data": null,
+  "scoring_result": null,
+  "positioning_strategy": null,
+  "generated_content": null,
+  "qa_result": null,
+  "metrics": {},
+  "errors": [
+    "Step research failed after 2 attempts"
+  ]
+}

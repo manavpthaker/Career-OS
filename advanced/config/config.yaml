@@ -1,0 +1,77 @@
+# Job Search v2 Configuration
+
+# Agent configurations
+agents:
+  research:
+    cache_ttl_hours: 24
+    enable_web_search: true
+    tavily_api_key: ${TAVILY_API_KEY}  # From environment
+
+  scoring:
+    confidence_threshold: 0.7
+    strict_mode: true
+
+  positioning:
+    narrative_paths:
+      - knowledge/narrative
+    voice_calibration: true
+
+  content:
+    template_dir: templates
+    enable_personalization: true
+
+  qa:
+    strict_mode: true
+    check_forbidden_phrases: true
+    check_metrics_accuracy: true
+
+  export:
+    drive_enabled: false  # Set to true and configure OAuth to enable
+    local_backup: true
+
+# Workflow configuration
+workflow:
+  default_type: auto  # auto, director_level, principal_level, senior_level
+  timeout: 300  # 5 minutes
+  max_parallel: 3
+  retry_failed_steps: true
+
+# Output configuration
+output:
+  applications_dir: data/applications
+  logs_dir: logs
+  state_dir: data/state
+
+# User profile (basic, full profile in separate file)
+user:
+  name: [YOUR_NAME]
+  email: [YOUR_EMAIL]
+  location: [YOUR_CITY, STATE]
+  years_experience: [XX]+ years_management: 8
+
+# Performance settings
+performance:
+  cache_enabled: true
+  parallel_research: true
+  parallel_scoring: true
+  max_workers: 4
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR
+  format: json
+  file: logs/job_search.log
+
+# Quality thresholds
+quality:
+  min_score_to_apply: 70
+  min_confidence: 0.6
+  max_gaps_allowed: 3
+
+# API settings (keys from environment)
+api:
+  openai_model: gpt-4-turbo-preview
+  anthropic_model: claude-3-5-sonnet-20241022
+  fallback_model: gpt-3.5-turbo
+  max_retries: 3
+  timeout: 30

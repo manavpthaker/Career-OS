@@ -1,0 +1,140 @@
+{
+  "personal_info": {
+    "name": "Alex Chen",
+    "email": "alex.chen@email.com",
+    "phone": "(415) 555-0123",
+    "location": "Austin, TX",
+    "linkedin": "linkedin.com/in/alexchen",
+    "github": "github.com/alexchen",
+    "portfolio": "alexchen.dev"
+  },
+
+  "professional_identity": {
+    "positioning_statement": "Product leader with 8+ years building B2B SaaS platforms and AI-powered features. Known for bridging technical complexity with business value, shipping customer-obsessed products that scale.",
+    "years_experience": "8+ years",
+    "domain_expertise": "B2B SaaS, AI/ML products, platform infrastructure",
+    "level": "Senior Product Manager"
+  },
+
+  "current_position": {
+    "title": "Senior Product Manager",
+    "company": "DataFlow Systems",
+    "company_context": "Series C analytics platform serving Fortune 500 customers",
+    "start_date": "March 2022",
+    "end_date": "Present",
+    "duration": "2.5 years",
+    "location": "Remote"
+  },
+
+  "key_achievements": [
+    {
+      "metric": "$4.2M ARR growth from ML recommendation engine",
+      "context": "Led development of AI-powered feature that increased customer engagement 65%",
+      "timeframe": "2023"
+    },
+    {
+      "metric": "90% platform adoption across 12 product teams",
+      "context": "Built internal APIs and SDKs that became foundation for all new features",
+      "timeframe": "2022-2024"
+    },
+    {
+      "metric": "45% reduction in customer churn",
+      "context": "Implemented predictive analytics to identify at-risk accounts",
+      "timeframe": "2023"
+    },
+    {
+      "metric": "150% improvement in feature delivery speed",
+      "context": "Designed developer platform that eliminated 60% of repetitive engineering work",
+      "timeframe": "2022-2023"
+    },
+    {
+      "metric": "2.3M+ API calls per day with 99.95% uptime",
+      "context": "Scaled platform infrastructure to support 10x customer growth",
+      "timeframe": "2024"
+    }
+  ],
+
+  "leadership_experience": {
+    "team_management": {
+      "largest_team": "Cross-functional team of 15",
+      "management_years": "5 years",
+      "team_types": ["engineering", "data science", "design", "product marketing"]
+    },
+    "leadership_philosophy": "Lead through influence and data-driven decision making. Focus on customer outcomes over feature delivery.",
+    "management_examples": [
+      {
+        "situation": "Platform adoption was low across product teams due to poor developer experience",
+        "action": "Embedded with engineering teams to understand pain points, redesigned APIs with extensive documentation and SDKs",
+        "result": "Platform adoption increased from 30% to 90% within 6 months"
+      }
+    ]
+  },
+
+  "technical_skills": {
+    "product_tools": ["Jira", "Figma", "Amplitude", "Mixpanel", "Productboard"],
+    "technical_skills": ["SQL", "Python", "REST APIs", "GraphQL", "Git"],
+    "ai_ml_experience": ["scikit-learn", "TensorFlow", "LLM integration", "Prompt engineering", "A/B testing"],
+    "platforms": ["AWS", "Snowflake", "Kubernetes", "React", "Node.js"]
+  },
+
+  "domain_expertise": [
+    "B2B SaaS product strategy",
+    "AI/ML product development",
+    "Platform and infrastructure products",
+    "Enterprise customer success",
+    "Data analytics and business intelligence"
+  ],
+
+  "career_progression": [
+    {
+      "title": "Product Manager",
+      "company": "TechStart Inc",
+      "duration": "2019-2022 (3 years)",
+      "key_achievement": "Launched mobile app that reached 100K users in first year"
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "Innovation Labs",
+      "duration": "2017-2019 (2 years)",
+      "key_achievement": "Led feature that increased user engagement 35%"
+    },
+    {
+      "title": "Business Analyst",
+      "company": "Consulting Group",
+      "duration": "2015-2017 (2 years)",
+      "key_achievement": "Analyzed customer data to identify $2M cost savings opportunity"
+    }
+  ],
+
+  "education": {
+    "degree": "BS Computer Science",
+    "school": "University of California, Berkeley",
+    "graduation_year": "2015"
+  },
+
+  "value_proposition": {
+    "unique_combination": "Technical background + product strategy + enterprise customer experience",
+    "problem_solver_type": "Complex technical products that need to scale while maintaining simplicity",
+    "ideal_company_stage": "Series B-D companies building platform products for enterprise customers",
+    "working_style": "Data-driven but customer-obsessed, strategic but hands-on when needed"
+  },
+
+  "target_roles": [
+    "Senior Product Manager",
+    "Principal Product Manager",
+    "Director of Product (Platform)"
+  ],
+
+  "compensation_expectations": {
+    "minimum_base": "$160K",
+    "target_total": "$220K",
+    "equity_importance": "High",
+    "remote_requirement": "Preferred"
+  },
+
+  "notes": {
+    "last_updated": "2024-09-17",
+    "verification_status": "All metrics verified and defensible",
+    "voice_style": "Professional, confident, specific - focuses on outcomes and scale"
+  }
+}

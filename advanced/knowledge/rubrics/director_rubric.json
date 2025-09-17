@@ -1,0 +1,258 @@
+{
+  "name": "Director Level PM Scoring Rubric",
+  "version": "2.0",
+  "total_points": 100,
+  "categories": [
+    {
+      "name": "Role Alignment",
+      "weight": 15,
+      "description": "Title match and leadership indicators",
+      "keywords": ["own", "drive", "ship", "roadmap", "strategy", "vision", "launch", "lead", "director", "vp", "head"],
+      "scoring": {
+        "5": "Exact title match + all keywords",
+        "4": "Close title match + 5+ keywords",
+        "3": "Adjacent title + 3-4 keywords",
+        "2": "Title stretch + 1-2 keywords",
+        "1": "Poor alignment",
+        "0": "No alignment"
+      },
+      "evidence": [
+        "Head of Product (multiple times)",
+        "Director title at Coqui",
+        "Built and scaled language",
+        "Led 15-20, Managed 50+",
+        "Strategic pivot experience",
+        "Successfully exited"
+      ]
+    },
+    {
+      "name": "Outcomes & Metrics",
+      "weight": 15,
+      "description": "Quantifiable business impact",
+      "keywords": ["%", "increase", "reduction", "activation", "retention", "revenue", "growth", "conversion", "impact"],
+      "scoring": {
+        "5": "Specific metrics demanded + exceeded",
+        "4": "Metrics wanted + relevant ones provided",
+        "3": "Outcomes mentioned + some match",
+        "2": "Vague on metrics + have metrics",
+        "1": "Minimal metric alignment",
+        "0": "No metrics mentioned"
+      },
+      "evidence": [
+        "$[X.X]M+ impact",
+        "[XXX]% YoY growth growth",
+        "[XX]% retention rate (2.3x industry)",
+        "[XX]% efficiency improvement improvement",
+        "319,950 store visits",
+        "100:1 LTV/CAC",
+        "35% unit economics improvement"
+      ]
+    },
+    {
+      "name": "Scope & Seniority",
+      "weight": 12,
+      "description": "Management scale and organizational impact",
+      "keywords": ["portfolio", "squad", "org", "budget", "executive", "director", "cross-functional", "stakeholder"],
+      "scoring": {
+        "4": "50+ team or Director+ role",
+        "3": "25+ team or senior leadership",
+        "2": "10-20 team or mid-level",
+        "1": "5-10 team or junior",
+        "0": "No management evidence"
+      },
+      "evidence": [
+        "[XX]+ employees (Director+)",
+        "25+ built from 0 (VP level)",
+        "15-20 team (Senior/Director)",
+        "[X] years management",
+        "P&L ownership",
+        "Board/investor exposure"
+      ]
+    },
+    {
+      "name": "Experimentation",
+      "weight": 10,
+      "description": "Data-driven approach and testing",
+      "keywords": ["A/B test", "experiment", "hypothesis", "analytics", "data-driven", "metrics", "validation"],
+      "scoring": {
+        "5": "Extensive testing culture + results",
+        "4": "Multiple experiments + outcomes",
+        "3": "Some testing experience",
+        "2": "Basic analytics understanding",
+        "1": "Limited evidence",
+        "0": "No experimentation"
+      },
+      "evidence": [
+        "47 A/B tests conducted",
+        "Data-driven decisions",
+        "375K transactions analyzed",
+        "Systematic testing approach"
+      ]
+    },
+    {
+      "name": "Product Sense",
+      "weight": 8,
+      "description": "User focus and product intuition",
+      "keywords": ["user research", "discovery", "JTBD", "insights", "customer", "persona", "journey"],
+      "scoring": {
+        "4": "Deep user research + frameworks",
+        "3": "Good user understanding",
+        "2": "Basic product sense",
+        "1": "Limited evidence",
+        "0": "No product sense shown"
+      },
+      "evidence": [
+        "User research expertise",
+        "Marketplace dynamics understanding",
+        "Customer journey optimization",
+        "Discovery and validation"
+      ]
+    },
+    {
+      "name": "Cross-functional",
+      "weight": 10,
+      "description": "Collaboration across teams",
+      "keywords": ["engineering", "design", "collaborate", "align", "partner", "stakeholder", "cross-team"],
+      "scoring": {
+        "5": "Led 15+ cross-functional",
+        "4": "Strong collaboration evidence",
+        "3": "Good teamwork shown",
+        "2": "Some collaboration",
+        "1": "Limited evidence",
+        "0": "No collaboration shown"
+      },
+      "evidence": [
+        "15-20 team leadership",
+        "Engineering partnership",
+        "Design collaboration",
+        "Sales alignment"
+      ]
+    },
+    {
+      "name": "Domain/Technical",
+      "weight": 10,
+      "description": "Technical depth and domain expertise",
+      "keywords": ["infrastructure", "API", "scale", "architecture", "platform", "AI/ML", "marketplace"],
+      "scoring": {
+        "5": "Deep technical + domain match",
+        "4": "Good technical understanding",
+        "3": "Relevant domain experience",
+        "2": "Some technical awareness",
+        "1": "Limited technical depth",
+        "0": "No technical evidence"
+      },
+      "evidence": [
+        "AI/ML implementation",
+        "Marketplace expertise",
+        "Platform architecture",
+        "API design experience"
+      ]
+    },
+    {
+      "name": "Communication",
+      "weight": 8,
+      "description": "Written and verbal excellence",
+      "keywords": ["articulate", "present", "document", "communicate", "stakeholder", "executive", "board"],
+      "scoring": {
+        "4": "Executive/board communication",
+        "3": "Strong communication skills",
+        "2": "Good communication",
+        "1": "Basic communication",
+        "0": "Poor communication"
+      },
+      "evidence": [
+        "Board presentations",
+        "English degree",
+        "Executive alignment",
+        "Stakeholder management"
+      ]
+    },
+    {
+      "name": "Company Fit",
+      "weight": 7,
+      "description": "Cultural and mission alignment",
+      "keywords": ["mission", "values", "culture", "diversity", "inclusion", "purpose"],
+      "scoring": {
+        "3.5": "Strong cultural match + research",
+        "2.5": "Good cultural fit",
+        "1.5": "Some alignment",
+        "0.5": "Minimal fit",
+        "0": "No fit shown"
+      },
+      "evidence": [
+        "Research integration capability",
+        "Values alignment",
+        "Mission resonance"
+      ]
+    },
+    {
+      "name": "Evidence Depth",
+      "weight": 5,
+      "description": "Portfolio and proof points",
+      "keywords": ["portfolio", "examples", "case study", "proof", "demonstration"],
+      "scoring": {
+        "2.5": "Strong portfolio + metrics",
+        "2": "Good evidence provided",
+        "1.5": "Some examples",
+        "1": "Limited proof",
+        "0": "No evidence"
+      },
+      "evidence": [
+        "All metrics verified",
+        "Portfolio available",
+        "Case studies documented"
+      ]
+    }
+  ],
+  "penalties": [
+    {
+      "name": "Vague AI claims",
+      "points": -5,
+      "trigger": "AI/ML claims without specific implementation or metrics"
+    },
+    {
+      "name": "Tool soup",
+      "points": -5,
+      "trigger": "Listing tools without outcomes"
+    },
+    {
+      "name": "No cross-functional",
+      "points": -7,
+      "trigger": "No evidence of team collaboration"
+    },
+    {
+      "name": "Typos/formatting",
+      "points": -3,
+      "trigger": "Grammar or formatting issues"
+    },
+    {
+      "name": "Unsupported claims",
+      "points": -5,
+      "trigger": "Senior claims without evidence"
+    }
+  ],
+  "gate_checks": [
+    {
+      "name": "Location",
+      "fail_if": "Outside 90-minute NYC radius without remote option"
+    },
+    {
+      "name": "Compensation",
+      "fail_if": "Below $250K target range"
+    },
+    {
+      "name": "Skills gap",
+      "fail_if": "Requires hands-on coding or skills not possessed"
+    },
+    {
+      "name": "Visa",
+      "fail_if": "Requires sponsorship (US citizen)"
+    }
+  ],
+  "score_interpretation": {
+    "85-100": "Submit immediately (high priority)",
+    "70-84": "Submit after minor edits",
+    "55-69": "Major rewrite needed",
+    "0-54": "Do not submit"
+  }
+}

@@ -1,0 +1,72 @@
+# User Profile Configuration
+# Updated with verified information - 2025-09-04
+
+personal:
+  name: "[YOUR_NAME]"
+  email: "[YOUR_EMAIL]"
+  phone: "[YOUR_PHONE]"
+  location: "[YOUR_CITY, STATE]"
+  linkedin: "linkedin.com/in/manavpthaker"
+  github: "github.com/manavpthaker"
+  portfolio: ""  # Optional
+
+current_position:
+  title: "Product Manager"
+  company: "[CURRENT_COMPANY]"
+  start_date: "[START_DATE]"
+  location: "Remote"
+  
+previous_positions:
+  - title: "Head of Product"
+    company: "[PREVIOUS_COMPANY_1]"
+    start_date: "[START_DATE]"
+    end_date: "2024"
+    location: "Remote"
+    
+education:
+  - degree: "[YOUR_DEGREE] in [YOUR_FIELD]"
+    school: "[YOUR_UNIVERSITY]"
+    graduation_year: "[GRADUATION_YEAR]"
+  
+certifications:
+  - name: "Any Certifications"  # UPDATE THIS OR REMOVE
+    issuer: "Issuing Organization"
+    year: "Year"
+
+# Verified achievements from your actual experience
+key_achievements:
+  - metric: "$3.6M positive impact from AI transformation at [CURRENT_COMPANY]"
+    context: "Business case for gift marketplace transformation"
+  - metric: "80% time saved on repetitive PM tasks through automation"
+    context: "Using GPT, Claude, NotebookLM for workflow optimization"
+  - metric: "[XXXX]+ customers served on platform"
+    context: "Series B profitable growth company"
+  - metric: "$50M to $200M marketplace transformation opportunity identified"
+    context: "Leading re-platforming initiative for SHOP and CHECKOUT modules"
+    
+skills:
+  technical:
+    - "Product Management"
+    - "AI/ML Implementation"
+    - "Platform Migration"
+    - "API Design"
+    - "Data Analysis"
+  tools:
+    - "Jira"
+    - "Confluence"
+    - "Figma"
+    - "SQL"
+    - "Python"
+    - "GPT/Claude"
+  domains:
+    - "E-commerce"
+    - "Marketplace Platforms"
+    - "B2B SaaS"
+    - "Gift/Floral Industry"
+
+# Preferences for document generation
+preferences:
+  voice_style: "professional_confident"  # professional_confident, friendly_casual, technical_detailed
+  include_metrics: true
+  emphasize_ai_experience: true
+  remote_preference: true

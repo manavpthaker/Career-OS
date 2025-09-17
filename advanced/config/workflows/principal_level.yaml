@@ -1,0 +1,71 @@
+name: Principal Level Application Workflow
+description: Optimized for Principal/Staff PM roles emphasizing strategic impact
+
+emphasis: strategic_impact
+positioning_angle: strategic_innovator
+voice_blend:
+  mo_gawdat: 45
+  john_mulaney: 35
+  bill_maher: 20
+
+steps:
+  - name: research
+    agent: research_agent
+    depends_on: []
+    parallel: false
+    timeout: 120.0
+    retry_count: 2
+
+  - name: scoring
+    agent: scoring_agent
+    depends_on: []
+    parallel: true  # Can run parallel with research
+    timeout: 60.0
+    retry_count: 1
+
+  - name: positioning
+    agent: positioning_agent
+    depends_on: [research, scoring]
+    parallel: false
+    timeout: 30.0
+    retry_count: 1
+
+  - name: content_generation
+    agent: content_agent
+    depends_on: [positioning]
+    parallel: false
+    timeout: 90.0
+    retry_count: 2
+
+  - name: quality_assurance
+    agent: qa_agent
+    depends_on: [content_generation]
+    parallel: false
+    timeout: 45.0
+    retry_count: 1
+
+  - name: export
+    agent: export_agent
+    depends_on: [quality_assurance]
+    parallel: false
+    timeout: 30.0
+    retry_count: 1
+
+# Principal-specific configuration
+principal_config:
+  highlight_metrics:
+    - "$3.6M net positive impact"
+    - "[XX]% efficiency improvement improvement via AI"
+    - "375K transactions analyzed"
+    - "[XX]% retention rate (2.3x industry)"
+
+  positioning_priority:
+    - technical_depth
+    - strategic_thinking
+    - innovation_leadership
+    - cross_functional_influence
+
+  voice_adjustments:
+    opening: increase_mulaney  # More technical precision
+    achievements: heavy_mulaney  # Data-heavy
+    closing: balanced  # Confident but not aggressive

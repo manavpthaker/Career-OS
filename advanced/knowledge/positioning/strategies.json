@@ -1,0 +1,151 @@
+{
+  "positioning_strategies": {
+    "director_travel": {
+      "primary_angle": "international_hospitality_leadership",
+      "key_metrics": ["[XX]+ employees", "80% YoY revenue growth", "zero turnover", "4 properties [LOCATION]"],
+      "voice_blend": {
+        "gawdat": 60,
+        "mulaney": 25,
+        "maher": 15
+      },
+      "industry_language": "guest experience, hospitality excellence, international operations",
+      "hook_template": "Managing [XX]+ employees across 4 luxury properties in [LOCATION] while achieving 80% growth taught me that hospitality technology must enhance, not replace, human connection.",
+      "gap_mitigation": "Emphasize digital transformation in traditional hospitality"
+    },
+    "director_marketplace": {
+      "primary_angle": "marketplace_scaling_expert",
+      "key_metrics": ["[XX]% retention rate (2.3x industry)", "[XXX]% YoY growth growth", "100:1 LTV/CAC", "successful exit"],
+      "voice_blend": {
+        "gawdat": 50,
+        "mulaney": 30,
+        "maher": 20
+      },
+      "industry_language": "two-sided dynamics, network effects, liquidity, supply/demand balance",
+      "hook_template": "Building [PREVIOUS_COMPANY_2] to [XX]% retention rate taught me that successful marketplaces balance supply quality with demand curation—the same challenge [Company] faces at scale.",
+      "gap_mitigation": "Connect food delivery to broader marketplace principles"
+    },
+    "director_b2b_saas": {
+      "primary_angle": "enterprise_transformation_leader",
+      "key_metrics": ["SMB to enterprise pivot", "IKEA partnership", "35% unit economics", "$[XXX]K+ ARR potential"],
+      "voice_blend": {
+        "mo_gawdat": 50,
+        "john_mulaney": 35,
+        "bill_maher": 15
+      },
+      "industry_language": "enterprise sales cycle, customer success, ARR, churn prevention",
+      "hook_template": "Leading [PREVIOUS_COMPANY_1]'s pivot from SMB to enterprise—securing IKEA and improving unit economics 35%—proved that B2B success requires both product excellence and strategic customer development.",
+      "gap_mitigation": "Emphasize B2B experience from multiple ventures"
+    },
+    "principal_ai_platform": {
+      "primary_angle": "ai_implementation_strategist",
+      "key_metrics": ["[XX]% efficiency improvement via AI", "$[X.X]M+ impact", "375K transactions analyzed", "AI evaluation frameworks"],
+      "voice_blend": {
+        "gawdat": 45,
+        "mulaney": 35,
+        "maher": 20
+      },
+      "industry_language": "LLM implementation, evaluation frameworks, human-in-the-loop, AI ethics",
+      "hook_template": "Achieving [XX]% efficiency improvement through AI at [CURRENT_COMPANY] taught me that successful AI implementation isn't about the technology—it's about the evaluation frameworks and human-in-the-loop systems.",
+      "gap_mitigation": "Position as AI strategist not ML engineer"
+    },
+    "principal_marketplace": {
+      "primary_angle": "strategic_marketplace_innovator",
+      "key_metrics": ["$[X.X]M+ impact", "[XX]% retention rate", "375K transactions", "[XXX] endpoints analysis"],
+      "voice_blend": {
+        "gawdat": 45,
+        "mulaney": 35,
+        "maher": 20
+      },
+      "industry_language": "marketplace liquidity, seller success, buyer experience, platform economics",
+      "hook_template": "Analyzing 375K transactions across [XXX] endpoints to drive $[X.X]M+ impact taught me that marketplace success comes from understanding micro-behaviors at macro-scale.",
+      "gap_mitigation": "Emphasize strategic over operational"
+    },
+    "senior_product": {
+      "primary_angle": "execution_excellence",
+      "key_metrics": ["$[XXX]K+ prevented churn prevented", "[XX]% efficiency improvement", "re-platforming leadership"],
+      "voice_blend": {
+        "mo_gawdat": 40,
+        "john_mulaney": 40,
+        "bill_maher": 20
+      },
+      "industry_language": "product execution, feature delivery, sprint velocity, stakeholder alignment",
+      "hook_template": "Currently driving [CURRENT_COMPANY]'s $50M to $200M transformation through systematic execution and AI-powered efficiency.",
+      "gap_mitigation": "Focus on current IC excellence"
+    },
+    "startup_founder_adjacent": {
+      "primary_angle": "builder_who_scales",
+      "key_metrics": ["0 to 25+ team", "bootstrap to exit", "3 ventures", "seed to Series A"],
+      "voice_blend": {
+        "mo_gawdat": 45,
+        "john_mulaney": 30,
+        "bill_maher": 25
+      },
+      "industry_language": "zero to one, product-market fit, venture scale, exit strategy",
+      "hook_template": "Having built three ventures from zero—including one to successful exit—I understand the unique challenges of [stage] companies.",
+      "gap_mitigation": "Emphasize building over pure management"
+    },
+    "enterprise_platform": {
+      "primary_angle": "platform_architecture_leader",
+      "key_metrics": ["re-platforming initiative", "50% reduction unplanned work", "platform architecture"],
+      "voice_blend": {
+        "gawdat": 55,
+        "mulaney": 30,
+        "maher": 15
+      },
+      "industry_language": "platform thinking, API design, service architecture, technical debt",
+      "hook_template": "Leading [CURRENT_COMPANY]'s re-platforming initiative taught me that successful platform evolution requires balancing technical excellence with business continuity.",
+      "gap_mitigation": "Bridge product and platform architecture"
+    }
+  },
+  "voice_profiles": {
+    "mo_gawdat": {
+      "description": "Wise, solution-focused, opportunity-minded",
+      "examples": [
+        "This challenge revealed an opportunity to...",
+        "The constraint became our advantage when...",
+        "We discovered that the problem was actually..."
+      ],
+      "tone": "thoughtful, strategic, positive"
+    },
+    "john_mulaney": {
+      "description": "Precise, specific, detail-oriented",
+      "examples": [
+        "[XXX,XXX] transactions across [XXX] endpoints",
+        "47 A/B tests with 95% confidence intervals",
+        "15-person team across 4 time zones"
+      ],
+      "tone": "exact, factual, structured"
+    },
+    "bill_maher": {
+      "description": "Direct, confident, results-focused",
+      "examples": [
+        "The results speak for themselves",
+        "We delivered. Period.",
+        "Bottom line: [XXX]% YoY growth."
+      ],
+      "tone": "assertive, clear, conclusive"
+    }
+  },
+  "selection_logic": {
+    "role_level": {
+      "Director": "emphasize_management",
+      "VP": "emphasize_scale",
+      "Principal": "emphasize_impact",
+      "Senior": "emphasize_execution",
+      "Staff": "emphasize_expertise"
+    },
+    "company_stage": {
+      "Startup": "builder_who_scales",
+      "Growth": "scaling_expert",
+      "Enterprise": "transformation_leader",
+      "Public": "platform_thinker"
+    },
+    "industry": {
+      "Travel": "hospitality_expertise",
+      "Marketplace": "two_sided_dynamics",
+      "B2B_SaaS": "enterprise_focus",
+      "FinTech": "trust_and_scale",
+      "AI/ML": "implementation_strategy"
+    }
+  }
+}

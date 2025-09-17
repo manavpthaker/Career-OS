@@ -1,0 +1,119 @@
+candidate_profile:
+  # Personal Information
+  name: "[YOUR_NAME]"
+  location:
+    city: "Rahway"
+    state: "NJ"
+    remote_ok: true
+    hybrid_preferences: "Open to NYC hybrid ≥25%"
+    willing_to_relocate: false
+
+  # Education - CRITICAL FOR GATE CHECKS
+  education:
+    degree: "Bachelor of Arts"
+    field: "English Language & Literature"
+    institution: "[YOUR_UNIVERSITY]"
+    year: [GRADUATION_YEAR]
+    # Note: English Literature is NOT quantitative - will fail many gate checks
+
+  # Work Authorization
+  work_authorization:
+    us_authorized: true
+    needs_sponsorship: false
+    visa_status: "US Citizen/Permanent Resident"
+
+  # Experience Summary
+  experience_years: 8
+  pm_experience_years: 8
+  management_years: 7
+  current_level: "Head of Product"
+  target_level: "Senior Manager/Director"
+
+  # Domain Experience
+  domains:
+    - "AI/ML Product Management"
+    - "Marketplace Platforms"
+    - "B2B SaaS"
+    - "Growth Product Management"
+    - "Developer Tools/APIs"
+    - "Hospitality Technology"
+
+  # Technical Skills
+  technical_skills:
+    programming: ["Python", "SQL"]
+    analytics: ["A/B testing", "Statistical analysis", "Amplitude", "Mixpanel"]
+    ai_ml: ["Claude/GPT-4 deployment", "LLM orchestration", "ML model evaluation", "RAG", "Prompt engineering"]
+    product_tools: ["Jira", "Figma", "Confluence", "Amplitude", "Looker"]
+    platforms: ["API design", "SDK development", "Platform architecture"]
+
+  # Company Experience
+  companies:
+    - name: "[CURRENT_COMPANY]"
+      role: "Product Manager"
+      duration: "[START_DATE] - September 2025"
+      size: "Series B"
+      domain: "Marketplace/AI"
+
+    - name: "[PREVIOUS_COMPANY_1]"
+      role: "Head of Product"
+      duration: "[START_DATE] - [END_DATE]"
+      size: "Seed to Series A"
+      domain: "B2B SaaS/PropTech"
+
+    - name: "[PREVIOUS_COMPANY_2]"
+      role: "Head of Product & Co-Founder"
+      duration: "2017 - 2021"
+      size: "Startup"
+      domain: "Marketplace"
+
+    - name: "[PREVIOUS_COMPANY_3]"
+      role: "Director of Customer Experience"
+      duration: "2014 - 2016"
+      size: "SMB"
+      domain: "Hospitality"
+
+  # Key Achievements (for gate scoring)
+  key_metrics:
+    revenue_impact: "$[X]M+ ARR opportunities opportunities identified"
+    efficiency_gains: "80% PM overhead reduction"
+    retention: "[XX]% retention rate (2.3x industry)"
+    team_scale: "Managed teams of 15-50+ people"
+    growth: "[XXX]% YoY growth revenue growth"
+    experiments: "47 A/B tests conducted"
+
+  # Compensation
+  compensation:
+    current_base: 300000  # Current floor
+    target_base: 350000
+    equity_important: true
+    benefits_important: true
+
+  # Preferences
+  preferences:
+    company_stage: ["Series A", "Series B", "Public"]
+    company_size: ["50-500", "500-5000", "5000+"]
+    avoid_keywords: ["crypto", "web3", "gambling"]
+    target_keywords: ["AI", "ML", "platform", "developer tools", "marketplace"]
+
+# Gate Check Thresholds
+gate_check_settings:
+  education:
+    strict_mode: true  # Fail on hard quantitative requirements
+    warning_threshold: 0.7  # Warn if less than 70% match
+
+  experience:
+    allow_gap_years: 1  # Allow up to 1 year gap
+    strong_domain_offset: 2  # Strong domain experience can offset 2 years
+
+  location:
+    max_commute_miles: 50
+    hybrid_acceptable: true
+    relocation_possible: false
+
+# Automatic Filters
+auto_reject:
+  salary_below: 200000
+  requires_clearance: true
+  requires_phd: true
+  no_remote_no_hybrid: true  # Reject if no remote AND no hybrid
+  industries: ["defense", "gambling", "adult"]

@@ -1,0 +1,139 @@
+# Voice Calibration Configuration
+# The 50/30/20 Formula for consistent voice across all materials
+
+voice_blend:
+  default:
+    mo_gawdat: 50  # Wisdom and solution-focus
+    john_mulaney: 30  # Precision and specificity
+    bill_maher: 20  # Directness and confidence
+
+  # Adjustments by context
+  by_role:
+    director:
+      mo_gawdat: 55  # More strategic wisdom
+      john_mulaney: 30
+      bill_maher: 15  # Less aggressive
+
+    principal:
+      mo_gawdat: 45
+      john_mulaney: 35  # More technical precision
+      bill_maher: 20
+
+    senior:
+      mo_gawdat: 40
+      john_mulaney: 40  # Maximum detail
+      bill_maher: 20
+
+  by_company_culture:
+    collaborative:
+      mo_gawdat: 60  # Emphasize wisdom
+      john_mulaney: 30
+      bill_maher: 10  # Minimize directness
+
+    aggressive:
+      mo_gawdat: 40
+      john_mulaney: 30
+      bill_maher: 30  # More assertive
+
+    technical:
+      mo_gawdat: 35
+      john_mulaney: 50  # Maximum precision
+      bill_maher: 15
+
+    traditional:
+      mo_gawdat: 55
+      john_mulaney: 35
+      bill_maher: 10  # Very diplomatic
+
+voice_elements:
+  mo_gawdat:
+    key_phrases:
+      - "This challenge revealed an opportunity to"
+      - "We discovered that the real question was"
+      - "The constraint became our advantage when"
+      - "Looking deeper, we found"
+      - "This taught us that"
+
+    transformation_patterns:
+      problem_to_opportunity: "What seemed like {problem} actually enabled {opportunity}"
+      failure_to_learning: "When {failure}, we learned {insight} which led to {success}"
+      constraint_to_innovation: "The limitation of {constraint} forced us to innovate {solution}"
+
+  john_mulaney:
+    key_patterns:
+      - "Exactly {number} {metric} across {number} {dimension}"
+      - "Specifically, we {action} resulting in {precise_outcome}"
+      - "The data showed {finding} with {confidence} certainty"
+      - "Between {date} and {date}, we {achievement}"
+
+    precision_rules:
+      - Always use exact numbers, never round
+      - Include units and context for every metric
+      - Specify timeframes for all achievements
+      - Name specific tools/technologies/frameworks
+
+  bill_maher:
+    power_phrases:
+      - "The results speak for themselves"
+      - "Bottom line: {achievement}"
+      - "We delivered. Period."
+      - "The numbers don't lie"
+      - "Here's what actually happened"
+
+    conclusion_patterns:
+      - Start with impact, explain later
+      - Lead with the achievement
+      - State facts without hedging
+      - End with confidence
+
+application_rules:
+  cover_letter:
+    opening:
+      primary: mo_gawdat  # Hook with wisdom
+      secondary: john_mulaney  # Support with specifics
+
+    body:
+      primary: john_mulaney  # Detail achievements
+      secondary: mo_gawdat  # Frame strategically
+
+    closing:
+      primary: bill_maher  # End with confidence
+      secondary: mo_gawdat  # Vision for future
+
+  resume:
+    summary:
+      primary: bill_maher  # Direct impact statement
+      secondary: john_mulaney  # Specific scale
+
+    bullets:
+      primary: john_mulaney  # Precise metrics
+      secondary: mo_gawdat  # Strategic context
+      tertiary: bill_maher  # Result emphasis
+
+  interview_responses:
+    opening:
+      primary: mo_gawdat  # Thoughtful framing
+
+    evidence:
+      primary: john_mulaney  # Specific examples
+
+    conclusion:
+      primary: bill_maher  # Confident close
+
+calibration_examples:
+  before: "I helped improve retention"
+
+  after_50_30_20:
+    mo_gawdat: "This challenge of high churn revealed an opportunity to fundamentally rethink our value proposition"
+    john_mulaney: "We achieved [XX]% retention rate, precisely 2.3x the industry average of 30%"
+    bill_maher: "Bottom line: we kept more customers than anyone else in the space"
+
+  blended: "The churn challenge revealed an opportunity to fundamentally rethink value—we achieved [XX]% retention rate, 2.3x the industry average. The results speak for themselves."
+
+voice_consistency_checks:
+  - No generic phrases like "passionate about" or "excited to"
+  - No unverified claims or approximations
+  - No humble-bragging or false modesty
+  - Always specific, never vague
+  - Always outcome-focused, never process-only
+  - Always confident, never apologetic

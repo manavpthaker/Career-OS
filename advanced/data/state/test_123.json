@@ -1,0 +1,17 @@
+{
+  "job_id": "test_123",
+  "job_url": "https://example.com/job",
+  "company": "Test Company",
+  "role": "Director of Product",
+  "status": "initiated",
+  "workflow_type": "director_level",
+  "created_at": "2025-09-13T20:17:11.914957",
+  "updated_at": "2025-09-13T20:17:11.914958",
+  "research_data": null,
+  "scoring_result": null,
+  "positioning_strategy": null,
+  "generated_content": null,
+  "qa_result": null,
+  "metrics": {},
+  "errors": []
+}

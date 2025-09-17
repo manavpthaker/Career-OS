@@ -1,0 +1,159 @@
+{
+  "current_status": {
+    "seeking_role": true,
+    "available": "immediately",
+    "last_role": "Product Manager at [CURRENT_COMPANY]",
+    "actively_searching": true,
+    "source": "User clarification - January 2025"
+  },
+
+  "most_recent_role": {
+    "title": "Product Manager",
+    "company": "[CURRENT_COMPANY]",
+    "company_context": "[FUNDING_STAGE] company serving [XXXX]+ customers artisan florists",
+    "start_date": "[START_DATE]",
+    "end_date": "September 2025",
+    "duration": "1 year",
+    "team_size": "12-15 person product organization",
+    "direct_reports": "None",
+    "budget": "$[X.X]M annual product development budget",
+    "reporting_to": "VP Product",
+    "status": "Completed",
+    "source": "narrative/experience/[CURRENT_COMPANY]_experience.md"
+  },
+  
+  "[CURRENT_COMPANY]_metrics": {
+    "efficiency": {
+      "pm_overhead_reduction": "[XX]% efficiency improvement through AI automation",
+      "team_productivity": "27% improvement in productivity scores",
+      "prototype_cycle": "60% reduction (days to hours)",
+      "incident_reduction": "[XX]% improvement in downstream data incidents",
+      "source": "narrative/metrics/[CURRENT_COMPANY]_metrics.md"
+    },
+    "revenue": {
+      "prevented_churn": "$[XXX]K+ prevented churn churn (NOT prevented losses)",
+      "identified_opportunities": "$[X]M+ ARR opportunities ARR opportunities",
+      "customer_satisfaction": "12% increase",
+      "transactions_analyzed": "375K transactions across [XXX] endpoints",
+      "bundle_opportunity": "[XX.X]% patterns identified identified",
+      "platform_value": "$[X.X]M+ impact delivered",
+      "source": "narrative/metrics/[CURRENT_COMPANY]_metrics.md"
+    },
+    "technical": {
+      "prompt_templates": "50+ production templates with evaluation harnesses",
+      "rag_precision": "95% retrieval precision",
+      "latency": "<100ms p50 latency for AI responses",
+      "task_completion": ">90% task completion rate for multi-agent system",
+      "source": "narrative/metrics/[CURRENT_COMPANY]_metrics.md"
+    },
+    "scale": {
+      "support_tickets": "1000+ per week (NOT millions)",
+      "sprint_tasks": "500+ per cycle",
+      "data_sources": "50+ daily",
+      "product_teams": "3 teams supported",
+      "source": "narrative/metrics/[CURRENT_COMPANY]_metrics.md"
+    },
+    "quality": {
+      "error_rate": "0% on critical customer communications",
+      "classification_accuracy": "94% in support ticket classification",
+      "anomaly_detection": "85% precision / 90% recall",
+      "bias_reduction": "[XX]% improvement in discriminatory AI outcomes",
+      "source": "narrative/metrics/[CURRENT_COMPANY]_metrics.md"
+    }
+  },
+  
+  "[PREVIOUS_COMPANY_1]_experience": {
+    "title": "Head of Product",
+    "company": "[PREVIOUS_COMPANY_1]",
+    "company_context": "Hospitality technology platform ([EARLY_STAGE] → [GROWTH_STAGE], $[X.X]M raised)",
+    "duration": "[START_DATE] - [END_DATE] (3 years)",
+    "team_size": "[XX-XX] person cross-functional team",
+    "achievements": {
+      "platform": "Built Customer Experience Operating System (CxOS)",
+      "email_performance": "[XX]% open rates (3x industry average of 20%)",
+      "partnerships": "IKEA's Ingka Group, Eataly, Wonder",
+      "footfall": "[XXX,XXX] customer footfall (28% above projection)",
+      "productivity": "10x team productivity through platform",
+      "runway": "Extended by 18 months through strategic decisions",
+      "unit_economics": "[XX]% improvement through pivots",
+      "arr_pipeline": "$[XXX]K+ ARR potential potential",
+      "mom_growth": "12% MoM user growth",
+      "discovery_improvement": "[XX]% improvement in discovery-to-purchase",
+      "source": "narrative/experience/[PREVIOUS_COMPANY_1]_experience.md"
+    },
+    "note": "Originally listed as CPO in some docs, positioning as Head of Product"
+  },
+  
+  "[PREVIOUS_COMPANY_2]_experience": {
+    "title": "Head of Product & Co-Founder",
+    "company": "[PREVIOUS_COMPANY_2]",
+    "company_context": "D2C food marketplace - Bootstrap → Successful Exit",
+    "duration": "[START_DATE] - [END_DATE] (4 years)",
+    "status": "Co-founded, scaled, successfully exited",
+    "achievements": {
+      "retention": "[XX]% retention rate retention (2.3x industry average of 30%)",
+      "ltv_cac": "100:1 ratio in best segments",
+      "cac": "<$10 customer acquisition cost",
+      "ltv": ">$1,000 lifetime value in top cohorts",
+      "users": "[XX,XXX]+ users at peak",
+      "orders": "[X,XXX]+ daily volume at peak",
+      "accuracy": "99.2% order accuracy",
+      "prediction": "73% order prediction accuracy with ML",
+      "delivery_cost": "[XX]% improvement through optimization",
+      "yoy_growth": "[XXX]% YoY growth growth during peak",
+      "conversion_rate": "[XX]% improvement rates",
+      "ab_tests": "47 A/B tests on discovery mechanics",
+      "source": "narrative/metrics/[PREVIOUS_COMPANY_2]_metrics.md"
+    }
+  },
+  
+  "coqui_coqui_experience": {
+    "title": "Director of Sales, Operations, & Experience",
+    "company": "Coqui Coqui Group",
+    "duration": "[START_DATE] - [END_DATE] (2 years)",
+    "location": "[LOCATION], [LOCATION]",
+    "achievements": {
+      "revenue_growth": "80% YoY increase",
+      "retention": "40% YoY retention increase",
+      "team": "[XX]+ employees across 10 departments and 4 properties",
+      "turnover": "0% during tenure",
+      "source": "narrative/experience/[PREVIOUS_COMPANY_1]_experience.md references"
+    }
+  },
+  
+  "education": {
+    "degree": "[YOUR_DEGREE] in [YOUR_FIELD]",
+    "school": "[YOUR_UNIVERSITY]",
+    "year": "[GRADUATION_YEAR]",
+    "source": "narrative/identity/profile.md"
+  },
+  
+  "overall_positioning": {
+    "years_experience": "[XX]+ years",
+    "companies_built": "3 companies built",
+    "exits": "2 successful exits",
+    "current_compensation_floor": "$[XXX]K",
+    "target_roles": ["Senior PM", "Staff PM", "Principal PM"],
+    "source": "narrative/identity/profile.md"
+  },
+  
+  "technical_skills": {
+    "ai_ml": ["Claude 3.5", "GPT-4", "GPT-3.5 Turbo", "LLM orchestration", "RAG", "Prompt engineering"],
+    "programming": ["Python", "SQL", "APIs", "Git"],
+    "platforms": ["AWS", "PostgreSQL", "React", "Node.js", "Django"],
+    "tools": ["Jira", "Figma", "Amplitude", "Mixpanel", "Notion"],
+    "source": "narrative/skills/ai_ml_expertise.md"
+  },
+  
+  "WARNING": {
+    "note": "ONLY use facts from this file in generated content",
+    "never_claim": [
+      "100M+ daily requests (actual: [X,XXX]+ daily volume/week)",
+      "50M+ customers (actual: 500K+ at [CURRENT_COMPANY])",
+      "99.99% uptime (not documented)",
+      "$[XXX]K+ prevented churn losses (actual: $[XXX]K+ prevented churn churn)",
+      "180% MoM growth in AI chat adoption (VERIFIED)",
+      "Managing 15+ engineers at [CURRENT_COMPANY] (actual: 2 junior PMs)"
+    ]
+  }
+}

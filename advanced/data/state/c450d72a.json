@@ -1,0 +1,19 @@
+{
+  "job_id": "c450d72a",
+  "job_url": "https://paper.wd3.myworkdayjobs.com/en-US/Paper_Careers/job/All-North-America---Remote/Director-of-Product-Management--AI_R-100304",
+  "company": "Unknown",
+  "role": "Product Manager",
+  "status": "failed",
+  "workflow_type": "director_level",
+  "created_at": "2025-09-15T18:13:06.192163",
+  "updated_at": "2025-09-15T18:17:07.195921",
+  "research_data": null,
+  "scoring_result": null,
+  "positioning_strategy": null,
+  "generated_content": null,
+  "qa_result": null,
+  "metrics": {},
+  "errors": [
+    "Step research failed after 2 attempts"
+  ]
+}

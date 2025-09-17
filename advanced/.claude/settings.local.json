@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:paper.wd3.myworkdayjobs.com)",
+      "Bash(python:*)",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:boards.greenhouse.io)",
+      "Read(//Users/manavthaker/brownmanbeard/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

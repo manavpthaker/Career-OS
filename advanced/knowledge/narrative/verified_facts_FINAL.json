@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "created": "2024-01-15",
+    "last_updated": "2024-01-15",
+    "purpose": "Single source of truth for all professional facts and metrics",
+    "principle": "Only verified, documented facts - no inflation or fabrication"
+  },
+  
+  "[CURRENT_COMPANY]": {
+    "timeline": "[START_DATE] - Present",
+    "title": "Product Manager",
+    "company_context": {
+      "serves": "[XXXX]+ customers florists",
+      "industry": "Gift delivery and personalization platform",
+      "stage": "Series B, profitable growth company"
+    },
+    "team_structure": {
+      "reports_to": "VP Product",
+      "direct_reports": "None",
+      "works_with": "10+ engineers, designers, marketers",
+      "cross_functional": "Engineering, design, marketing, customer support"
+    },
+    "key_projects": {
+      "re_platforming": {
+        "description": "Leading major re-platforming initiative",
+        "modules": "SHOP and CHECKOUT module migration",
+        "goal": "Reduce unplanned work by 50% quarterly"
+      },
+      "ai_transformation": {
+        "business_case": "$50M to $200M gift marketplace transformation",
+        "at_risk": "$500K to be saved",
+        "churn_prevention": "$400K",
+        "revenue_opportunity": "$6M",
+        "net_impact": "$3.6M positive"
+      },
+      "automation": {
+        "impact": "80% time saved on repetitive PM tasks",
+        "areas": ["Ticket triage", "PRD creation", "Test documentation", "Workflow optimization"],
+        "tools_used": ["GPT", "Claude", "NotebookLM", "Perplexity"]
+      }
+    }
+  },
+  
+  "[PREVIOUS_COMPANY_1]": {
+    "timeline": "[START_DATE] - 2024",
+    "title": "Head of Product",
+    "status": "Left 2024, company active, still invested",
+    "company_context": {
+      "industry": "Marketing technology platform",
+      "stage": "[EARLY_STAGE] → [GROWTH_STAGE] (raised $3.2M)"
+    },
+    "partnerships": {
+      "ikea": "IKEA's Ingka Group partnership",
+      "saluhall": "Saluhall project in San Francisco"
+    },
+    "metrics": {
+      "footfall": "319,950 footfall achieved",
+      "performance": "28% over projected for grand opening",
+      "email_open_rate": "65% (3x industry average)",
+      "click_rate": "8%"
+    },
+    "team": "Led cross-functional team of technologists, strategists, storytellers"
+  },
+  
+  "[PREVIOUS_COMPANY_2]": {
+    "timeline": "[START_DATE] - 2021",
+    "title": "Head of Product & Co-Founder",
+    "exit": "Yes - successful exit (ONLY exit)",
+    "company_context": {
+      "industry": "D2C grocery delivery marketplace",
+      "market": "Indian/South Asian grocery",
+      "stage": "Bootstrap → Growth → Exit"
+    },
+    "peak_metrics": {
+      "users": "20,000 at peak",
+      "retention": "70% (2.3x industry average of 30%)",
+      "revenue_growth": "[XXX]% YoY growth (Q3 2019)",
+      "ltv": "Over $1,000",
+      "cac": "Under $10",
+      "ltv_cac_ratio": "100:1 in best segments",
+      "conversion": "40% (industry: 15-20%)"
+    },
+    "covid_impact": {
+      "initial_spike": "1,000% growth end of March 2020",
+      "sustained_growth": "30% month-over-month after spike",
+      "expansion": "National expansion, shipping 75% of selection across US"
+    },
+    "scale": {
+      "orders": "Grew to handle significant daily volume",
+      "team": "Grew from few to 25 people during pandemic",
+      "profitability": "Became operationally profitable"
+    }
+  },
+  
+  "coqui_coqui": {
+    "timeline": "[START_DATE] - [END_DATE]",
+    "title": "Director of Customer Experience",
+    "location": "[LOCATION], [LOCATION]",
+    "company_context": {
+      "industry": "Boutique hospitality",
+      "scale": "4 properties, 10 departments"
+    },
+    "metrics": {
+      "revenue_growth": "80% year-over-year",
+      "retention_increase": "40% year-over-year",
+      "team_size": "[XX]+ employees managed",
+      "turnover": "0% during tenure"
+    }
+  },
+  
+  "education": {
+    "degree": "[YOUR_DEGREE] in [YOUR_FIELD]",
+    "school": "[YOUR_UNIVERSITY]",
+    "year": "[GRADUATION_YEAR]"
+  },
+  
+  "overall_positioning": {
+    "years_experience": "[XX]+ years",
+    "companies_built": 3,
+    "successful_exits": 1,
+    "current_focus": "AI transformation and platform architecture",
+    "compensation_target": "$[XXX]K+",
+    "target_roles": ["Senior PM", "Staff PM", "Principal PM", "Director PM"]
+  },
+  
+  "prohibited_claims": {
+    "never_claim": [
+      "500K customers at [CURRENT_COMPANY] (actual: [XXXX]+ customers)",
+      "[XXX]% YoY growth at [CURRENT_COMPANY] (this was [PREVIOUS_COMPANY_2])",
+      "2 exits (only 1 - [PREVIOUS_COMPANY_2])",
+      "Managing PMs at [CURRENT_COMPANY] (works with engineers)",
+      "Eataly or Wonder partnerships (only IKEA and Saluhall)",
+      "Director of Sales at [PREVIOUS_COMPANY_3] (was Director of Customer Experience)"
+    ]
+  }
+}

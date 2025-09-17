@@ -1,0 +1,71 @@
+name: Director Level Application Workflow
+description: Optimized for Director/VP roles emphasizing management scale
+
+emphasis: management_scale
+positioning_angle: organizational_builder
+voice_blend:
+  mo_gawdat: 55
+  john_mulaney: 30
+  bill_maher: 15
+
+steps:
+  - name: research
+    agent: research_agent
+    depends_on: []
+    parallel: false
+    timeout: 120.0
+    retry_count: 2
+
+  - name: scoring
+    agent: scoring_agent
+    depends_on: []
+    parallel: true  # Can run parallel with research
+    timeout: 60.0
+    retry_count: 1
+
+  - name: positioning
+    agent: positioning_agent
+    depends_on: [research, scoring]
+    parallel: false
+    timeout: 30.0
+    retry_count: 1
+
+  - name: content_generation
+    agent: content_agent
+    depends_on: [positioning]
+    parallel: false
+    timeout: 90.0
+    retry_count: 2
+
+  - name: quality_assurance
+    agent: qa_agent
+    depends_on: [content_generation]
+    parallel: false
+    timeout: 45.0
+    retry_count: 1
+
+  - name: export
+    agent: export_agent
+    depends_on: [quality_assurance]
+    parallel: false
+    timeout: 30.0
+    retry_count: 1
+
+# Director-specific configuration
+director_config:
+  highlight_metrics:
+    - "[XX]+ employees managed"
+    - "25+ team built from zero"
+    - "15-20 cross-functional leadership"
+    - "[X] years management experience"
+
+  positioning_priority:
+    - organizational_scale
+    - strategic_vision
+    - p&l_ownership
+    - board_communication
+
+  voice_adjustments:
+    opening: increase_gawdat  # More strategic wisdom
+    achievements: balance_all  # Balanced approach
+    closing: increase_maher  # Confident close

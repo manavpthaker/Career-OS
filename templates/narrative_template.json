@@ -1,0 +1,133 @@
+{
+  "personal_info": {
+    "name": "[YOUR_FULL_NAME]",
+    "email": "[YOUR_EMAIL]",
+    "phone": "[YOUR_PHONE]",
+    "location": "[YOUR_CITY, STATE]",
+    "linkedin": "linkedin.com/in/[YOUR_LINKEDIN]",
+    "github": "github.com/[YOUR_GITHUB]",
+    "portfolio": "[YOUR_PORTFOLIO_URL_OR_BLANK]"
+  },
+
+  "professional_identity": {
+    "positioning_statement": "[2-3 sentences about your professional identity - what you're known for, your approach, your unique perspective]",
+    "years_experience": "[X]+ years",
+    "domain_expertise": "[e.g., 'B2B SaaS', 'marketplace platforms', 'fintech', etc.]",
+    "level": "[e.g., 'Senior PM', 'Principal PM', 'Director of Product']"
+  },
+
+  "current_position": {
+    "title": "[YOUR_CURRENT_TITLE]",
+    "company": "[CURRENT_COMPANY]",
+    "company_context": "[Brief description - stage, industry, size]",
+    "start_date": "[START_DATE]",
+    "end_date": "[END_DATE_OR_PRESENT]",
+    "duration": "[TIME_PERIOD]",
+    "location": "[REMOTE/CITY]"
+  },
+
+  "key_achievements": [
+    {
+      "metric": "$[X.X]M [impact type - revenue, savings, value created]",
+      "context": "[Brief explanation of what this represents]",
+      "timeframe": "[When this happened]"
+    },
+    {
+      "metric": "[X]% [improvement type - efficiency, growth, retention, etc.]",
+      "context": "[Brief explanation of what this represents]",
+      "timeframe": "[When this happened]"
+    },
+    {
+      "metric": "[X]+ [scale metric - users, customers, team size, etc.]",
+      "context": "[Brief explanation of what this represents]",
+      "timeframe": "[When this happened]"
+    },
+    {
+      "metric": "[Another specific achievement with numbers]",
+      "context": "[Brief explanation]",
+      "timeframe": "[When this happened]"
+    },
+    {
+      "metric": "[Another specific achievement]",
+      "context": "[Brief explanation]",
+      "timeframe": "[When this happened]"
+    }
+  ],
+
+  "leadership_experience": {
+    "team_management": {
+      "largest_team": "[X] person team",
+      "management_years": "[X] years",
+      "team_types": ["[e.g., 'engineering', 'design', 'data', 'cross-functional']"]
+    },
+    "leadership_philosophy": "[1-2 sentences about how you lead]",
+    "management_examples": [
+      {
+        "situation": "[Leadership challenge you faced]",
+        "action": "[What you did]",
+        "result": "[Specific outcome with metrics]"
+      }
+    ]
+  },
+
+  "technical_skills": {
+    "product_tools": ["[e.g., 'Jira', 'Figma', 'Amplitude', 'Mixpanel']"],
+    "technical_skills": ["[e.g., 'SQL', 'Python', 'APIs', 'Git']"],
+    "ai_ml_experience": ["[e.g., 'GPT-4', 'Claude', 'Prompt engineering', 'LLM integration']"],
+    "platforms": ["[e.g., 'AWS', 'Stripe', 'Shopify', 'React']"]
+  },
+
+  "domain_expertise": [
+    "[e.g., 'E-commerce platforms']",
+    "[e.g., 'B2B SaaS']",
+    "[e.g., 'Marketplace dynamics']",
+    "[e.g., 'Payment systems']"
+  ],
+
+  "career_progression": [
+    {
+      "title": "[PREVIOUS_TITLE]",
+      "company": "[PREVIOUS_COMPANY]",
+      "duration": "[TIME_PERIOD]",
+      "key_achievement": "[One major achievement from this role]"
+    },
+    {
+      "title": "[EARLIER_TITLE]",
+      "company": "[EARLIER_COMPANY]",
+      "duration": "[TIME_PERIOD]",
+      "key_achievement": "[One major achievement from this role]"
+    }
+  ],
+
+  "education": {
+    "degree": "[DEGREE_TYPE] in [FIELD]",
+    "school": "[UNIVERSITY_NAME]",
+    "graduation_year": "[YEAR]"
+  },
+
+  "value_proposition": {
+    "unique_combination": "[What makes your background unique - e.g., 'Technical depth + business strategy', 'B2B and B2C experience', 'International + domestic markets']",
+    "problem_solver_type": "[What kinds of problems you excel at solving]",
+    "ideal_company_stage": "[e.g., 'Growth-stage companies scaling platform', 'Early-stage companies building PMF']",
+    "working_style": "[e.g., 'Data-driven but customer-obsessed', 'Strategic but execution-focused']"
+  },
+
+  "target_roles": [
+    "[e.g., 'Senior Product Manager']",
+    "[e.g., 'Principal Product Manager']",
+    "[e.g., 'Director of Product']"
+  ],
+
+  "compensation_expectations": {
+    "minimum_base": "$[XXX]K",
+    "target_total": "$[XXX]K",
+    "equity_importance": "[High/Medium/Low]",
+    "remote_requirement": "[Required/Preferred/No preference]"
+  },
+
+  "notes": {
+    "last_updated": "[DATE]",
+    "verification_status": "All metrics verified and defensible",
+    "voice_style": "Professional, confident, specific - no corporate buzzwords"
+  }
+}
