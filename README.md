@@ -33,7 +33,7 @@ Copy these prompts to Claude/ChatGPT and paste your job posting:
 
 ### Have Claude Code? (30 minutes)
 ```bash
-git clone https://github.com/yourusername/career-os
+git clone https://github.com/manavpthaker/career-os
 cd career-os
 python claude-code/setup_career_os.py
 python claude-code/apply_to_job.py --url [job-url]
