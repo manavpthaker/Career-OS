@@ -81,3 +81,9 @@ test_output/
 notes.md
 TODO.personal.md
 *.personal.md
+
+# LinkedIn campaign data - contains personal info
+linkedin_campaigns/
+
+# Local Claude configuration
+.claude/

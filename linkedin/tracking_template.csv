@@ -1,0 +1,34 @@
+Company Name,Role,Hiring Manager,Hiring Manager LinkedIn,Connection Date,Touchpoints,Last Interaction,Interaction Type,Application Date,Response (Y/N),Interview Date,Status,Notes
+[COMPANY_1],[ROLE_1],[HIRING_MANAGER_1],[LINKEDIN_URL],2025-01-15,3,2025-01-20,Comment on post,2025-01-22,N,,Applied - Pending,Engaged with 3 posts; strong content response
+[COMPANY_2],[ROLE_2],[HIRING_MANAGER_2],[LINKEDIN_URL],2025-01-12,5,2025-01-21,InMail sent,2025-01-18,Y,2025-01-25,Interview Scheduled,Great engagement; mentioned my framework post
+[COMPANY_3],[ROLE_3],[HIRING_MANAGER_3],[LINKEDIN_URL],2025-01-10,2,2025-01-17,Connection request,,N,,Warming Up,Connected with 2 junior PMs
+[COMPANY_4],[ROLE_4],[HIRING_MANAGER_4],[LINKEDIN_URL],2025-01-08,7,2025-01-23,Phone call,2025-01-16,Y,2025-01-28,Second Round,Multi-touch approach worked; phone humanized me
+[COMPANY_5],[ROLE_5],[HIRING_MANAGER_5],[LINKEDIN_URL],2025-01-14,1,2025-01-14,Connection request,,N,,Just Started,Researching team structure
+
+# INSTRUCTIONS FOR USE:
+# 1. Track ALL target companies and interactions in this spreadsheet
+# 2. Update "Touchpoints" every time you interact (like, comment, share, message, etc.)
+# 3. "Last Interaction" should always reflect your most recent engagement
+# 4. "Interaction Type" helps track what's working (connections vs comments vs emails)
+# 5. Update "Status" as things progress (Warming Up → Applied → Interview Scheduled → Offer, etc.)
+# 6. Use "Notes" to track what resonated, what didn't, context for next interaction
+# 7. Review weekly: What's working? Where are you stuck? What needs follow-up?
+#
+# TOUCHPOINT TYPES TO TRACK:
+# - Connection request sent
+# - Connection accepted
+# - Post liked
+# - Post commented on
+# - Content shared (yours or theirs)
+# - Email sent
+# - Phone/voicemail left
+# - InMail sent
+# - Coffee chat scheduled
+# - Referral received
+#
+# SUCCESS METRICS TO MONITOR:
+# - Connection acceptance rate (target: 70%+)
+# - Average touchpoints before application (target: 5-7)
+# - Response rate to applications after warming (target: 15-20%)
+# - Time from first contact to interview (track for optimization)
+# - Which interaction types correlate with success

@@ -22,7 +22,7 @@ This toolkit automates the repetitive parts while keeping the human judgment tha
 - **Skills needed**: Copy/paste for prompts, basic CLI for automation
 - **Success rate**: Improves your odds, doesn't guarantee anything
 
-## Three Ways to Use This
+## Four Ways to Use This
 
 ### Just Want Better Applications? (5 minutes)
 Copy these prompts to Claude/ChatGPT and paste your job posting:
@@ -31,12 +31,25 @@ Copy these prompts to Claude/ChatGPT and paste your job posting:
 **Resume Builder**: [prompts/03_generate_resume.md](prompts/03_generate_resume.md)
 **Cover Letter Writer**: [prompts/04_write_cover.md](prompts/04_write_cover.md)
 
+### Want to Get Noticed BEFORE You Apply? (2 weeks) **⭐ NEW**
+LinkedIn Surround Sound Strategy - Build strategic presence so hiring managers recognize you before reviewing your application:
+
+**Map Target Companies**: [prompts/linkedin/06_map_target_companies.md](prompts/linkedin/06_map_target_companies.md)
+**Content Calendar**: [prompts/linkedin/07_generate_content_calendar.md](prompts/linkedin/07_generate_content_calendar.md)
+**Strategic Outreach**: [prompts/linkedin/10_build_outreach_sequence.md](prompts/linkedin/10_build_outreach_sequence.md)
+
+**Result**: 3-5x higher response rate vs cold applications. See [linkedin/README.md](linkedin/README.md) for full strategy.
+
 ### Have Claude Code? (30 minutes)
 ```bash
 git clone https://github.com/manavpthaker/career-os
 cd career-os
 python claude-code/setup_career_os.py
 python claude-code/apply_to_job.py --url [job-url]
+
+# LinkedIn Surround Sound Campaign
+python claude-code/linkedin/setup_surround_sound.py
+python claude-code/linkedin/generate_weekly_content.py
 ```
 
 ### Want Full Control? (2+ hours)
@@ -75,6 +88,9 @@ Built by someone who's applied to 50+ senior PM roles and knows what works.
 | Job Analysis Prompts | ✅ Stable | All |
 | Resume Generation | ✅ Stable | All |
 | Cover Letters | ✅ Stable | All |
+| **LinkedIn Surround Sound** | ✅ **New** | **All** |
+| **Pre-Application Warming** | ✅ **New** | **LinkedIn** |
+| **Strategic Outreach** | ✅ **New** | **LinkedIn** |
 | Application Tracking | ⚠️ Beta | Claude Code |
 | Company Research | ⚠️ Beta | Advanced |
 | Batch Processing | 🧪 Experimental | Advanced |
@@ -111,7 +127,7 @@ MIT License - Use freely, contribute back if you can.
 ---
 
 **Not working?** Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-**Questions?** Open an [Issue](https://github.com/yourusername/career-os/issues)
-**Success story?** Share in [Discussions](https://github.com/yourusername/career-os/discussions)
+**Questions?** Open an [Issue](https://github.com/manavpthaker/career-os/issues)
+**Success story?** Share in [Discussions](https://github.com/manavpthaker/career-os/discussions)
 
 *Built with the philosophy that job searching should feel less like playing a rigged game and more like showcasing what you can actually do.*

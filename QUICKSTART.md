@@ -17,7 +17,7 @@ Best for: Regular job searching, building a system
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/career-os
+   git clone https://github.com/manavpthaker/career-os
    cd career-os
    ```
 
@@ -30,6 +30,26 @@ Best for: Regular job searching, building a system
    ```bash
    python claude-code/apply_to_job.py --url [job-url]
    ```
+
+### 🎯 NEW: LinkedIn Surround Sound (2 weeks)
+Best for: Getting noticed BEFORE you apply (3-5x better response rate)
+
+1. **Set up your campaign**:
+   ```bash
+   python claude-code/linkedin/setup_surround_sound.py
+   ```
+
+2. **Generate weekly content**:
+   ```bash
+   python claude-code/linkedin/generate_weekly_content.py
+   ```
+
+3. **Track your progress**:
+   ```bash
+   python claude-code/linkedin/track_campaign.py
+   ```
+
+See [linkedin/README.md](linkedin/README.md) for complete strategy.
 
 ### 🔧 Advanced: Full Orchestrator (2+ hours)
 Best for: Power users, high-volume applications
@@ -64,7 +84,7 @@ See [advanced/README.md](advanced/README.md) for complete setup.
 
 **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/career-os
+git clone https://github.com/manavpthaker/career-os
 cd career-os
 ```
 

@@ -1,0 +1,292 @@
+{
+  "comment_strategies": {
+    "thoughtful_comment_formula": {
+      "description": "Structure for high-value comments",
+      "components": [
+        "1. Acknowledge: Show you read/understood the post",
+        "2. Add Data: Share your specific experience",
+        "3. Provide Insight: Connect to broader pattern",
+        "4. Invite Dialog: Ask a question or offer perspective"
+      ],
+      "template": "This resonates with our experience at [COMPANY]. We tried [APPROACH] and saw [RESULT]. The key difference was [INSIGHT]. Have you found [QUESTION]?",
+      "good_examples": [
+        {
+          "context": "Post about user research challenges",
+          "comment": "Fascinating approach. At [YOUR_COMPANY], we hit similar walls until we realized users are experts at problems, terrible at solutions. Watching [XXX] sessions taught us more than [X,XXX] surveys. How are you balancing qualitative vs quantitative insights?"
+        },
+        {
+          "context": "Post about retention strategies",
+          "comment": "This aligns with something counterintuitive we found across [X] marketplaces: limiting choice increased retention [X.X]x. The magic number was [X] options, not [XX]. Have you tested similar thresholds in your space?"
+        },
+        {
+          "context": "Post about product roadmap prioritization",
+          "comment": "The '[FRAMEWORK]' framework worked for us here. We analyzed [XXX] user requests and found [XX]% fell into [X] categories. Focusing on the top [X] doubled our velocity. Curious how you're handling the 'everything is urgent' problem?"
+        }
+      ],
+      "bad_examples": [
+        "Great post!",
+        "This is so true!",
+        "Thanks for sharing!",
+        "Agree 100%!",
+        "💯💯💯"
+      ]
+    },
+    "engagement_triggers": {
+      "description": "What makes people respond to comments",
+      "triggers": [
+        "Ask a specific question (not rhetorical)",
+        "Share contrarian data/perspective",
+        "Reference their specific work",
+        "Connect to broader pattern",
+        "Offer to share more details",
+        "Provide actionable insight",
+        "Show vulnerability/failure",
+        "Use specific numbers/metrics"
+      ]
+    },
+    "comment_timing": {
+      "description": "When to comment for maximum visibility",
+      "optimal_windows": {
+        "thought_leaders": "Within first hour of post (be in first 10 comments)",
+        "target_employees": "Within 1-2 hours (shows you're engaged)",
+        "company_posts": "Within first day (official posts stay visible longer)"
+      },
+      "setup": "Set up mobile notifications for key people and hashtags"
+    },
+    "strategic_liking": {
+      "description": "When and what to like strategically",
+      "tactics": [
+        "Like posts from target employees (not mass-like)",
+        "Like comments from hiring managers",
+        "Like company announcements",
+        "Like thought leader posts you engage with",
+        "Space out likes (not 20 in a row)"
+      ],
+      "avoid": [
+        "Liking everything from one person",
+        "Liking old posts (shows stalking)",
+        "Liking without commenting on important posts",
+        "Liking competitor content aggressively"
+      ]
+    }
+  },
+  "connection_strategies": {
+    "personalized_requests": {
+      "description": "Connection message templates that work",
+      "good_template": "Hi [NAME],\n\nSaw your work on [SPECIFIC_PROJECT/POST] and really appreciated your take on [SPECIFIC_INSIGHT]. I've been working on similar challenges in [YOUR_DOMAIN] and would love to connect.\n\n[YOUR_NAME]",
+      "better_template": "Hi [NAME],\n\nYour post about [SPECIFIC_TOPIC] caught my attention. I faced a similar challenge at [YOUR_COMPANY] and solved it with [APPROACH]. Would love to compare notes.\n\n[YOUR_NAME]",
+      "best_template": "Hi [NAME],\n\nSaw your work on [PROJECT] and particularly appreciated your insight about [SPECIFIC_POINT]. At [YOUR_COMPANY], we encountered [SIMILAR_CHALLENGE] and found [SOLUTION]. Would love to connect and hear more about your approach.\n\n[YOUR_NAME]",
+      "bad_templates": [
+        "I'd like to add you to my professional network.",
+        "Hi [NAME], Let's connect!",
+        "I'm looking for opportunities in [FIELD].",
+        "I saw we both work in [INDUSTRY]."
+      ]
+    },
+    "connection_sequence": {
+      "description": "Order of connection requests to build credibility",
+      "sequence": [
+        "1. Junior team members (higher acceptance, lower risk)",
+        "2. Mid-level ICs (after 2-3 junior connections)",
+        "3. Senior ICs (after engaging with their content)",
+        "4. Manager/Director level (after multiple team connections)",
+        "5. VP/Hiring Manager (after demonstrating engagement)"
+      ],
+      "rate_limit": "2-3 connections per day to avoid spam flags"
+    },
+    "post_connection_engagement": {
+      "description": "What to do after connection is accepted",
+      "timeline": [
+        "Day 1: Thank them (brief, no ask)",
+        "Day 3-5: Like/comment on one of their posts",
+        "Day 7-10: Share relevant article/resource",
+        "Day 14+: Ask thoughtful question or offer value"
+      ],
+      "avoid": [
+        "Immediate sales pitch or job ask",
+        "Generic 'let's catch up' message",
+        "Asking for introductions right away",
+        "InMail blast after connection"
+      ]
+    }
+  },
+  "outreach_tactics": {
+    "email_strategy": {
+      "description": "Email outreach that gets responses",
+      "subject_lines": [
+        "Quick question about [SPECIFIC_CHALLENGE]",
+        "Insight from [YOUR_COMPANY] on [TOPIC]",
+        "Following up on your [POST/ARTICLE]",
+        "[MUTUAL_CONNECTION] suggested I reach out",
+        "Saw your work on [PROJECT]"
+      ],
+      "template": "Subject: Quick question about [SPECIFIC_CHALLENGE]\n\nHi [NAME],\n\nSaw your post about [TOPIC] on LinkedIn. At [YOUR_COMPANY], we faced a similar challenge with [PROBLEM].\n\nNot pitching anything—genuinely curious how you're approaching [X].\n\nHappy to share what worked for us if helpful.\n\n[YOUR_NAME]\n[LINKEDIN_PROFILE]",
+      "best_practices": [
+        "Keep it under 75 words",
+        "Lead with value, not ask",
+        "Reference specific work",
+        "Make it easy to respond",
+        "No attachments in first email",
+        "Include LinkedIn profile link"
+      ]
+    },
+    "voicemail_script": {
+      "description": "Voicemail that humanizes you",
+      "template": "Hi [NAME], this is [YOUR_NAME]. Sent you a note about [TOPIC] but wanted to put a voice to the name. Really interested in [CHALLENGE] you're working on. I'll follow up with LinkedIn, but feel free to reach out anytime at [YOUR_NUMBER]. Thanks!",
+      "best_practices": [
+        "Keep under 30 seconds",
+        "Mention you sent email/LinkedIn",
+        "Reference specific work",
+        "No hard ask",
+        "Leave your number clearly",
+        "Warm, confident tone"
+      ]
+    },
+    "linkedin_inmail": {
+      "description": "InMail that gets read",
+      "subject_lines": [
+        "Quick insight on [THEIR_CHALLENGE]",
+        "Resource that might help with [PROJECT]",
+        "Following your work on [TOPIC]",
+        "Shared experience with [CHALLENGE]"
+      ],
+      "template": "Hi [NAME],\n\nI've been following [COMPANY]'s work on [PROJECT] and just applied for [ROLE].\n\nRather than wait in the queue, wanted to share a [FRAMEWORK/RESOURCE] that helped us solve [SIMILAR_CHALLENGE] at [YOUR_COMPANY].\n\nNo expectation of response—just thought it might be useful: [LINK]\n\n[YOUR_NAME]",
+      "best_practices": [
+        "Lead with value, not application",
+        "Reference specific work/project",
+        "Include useful resource",
+        "No pressure for response",
+        "Keep under 100 words",
+        "Link to something genuinely useful"
+      ]
+    },
+    "multi_touch_sequence": {
+      "description": "Coordinated multi-channel approach",
+      "timeline": [
+        "Touch 1 (Day 1): LinkedIn connection request (personalized)",
+        "Touch 2 (Day 3): Engage with 2-3 of their posts (organic)",
+        "Touch 3 (Day 7): Email with value-add (specific insight)",
+        "Touch 4 (Day 10): Phone/voicemail (humanizing)",
+        "Touch 5 (Day 14): LinkedIn InMail (reference previous touches)",
+        "Touch 6 (Day 21): Share relevant content (no ask)"
+      ],
+      "principles": [
+        "Always provide value, never just 'checking in'",
+        "Space touches 3-7 days apart",
+        "No more than 6 total touches",
+        "If no response after 6, move on gracefully"
+      ]
+    }
+  },
+  "response_handling": {
+    "positive_response": {
+      "description": "What to do when they engage back",
+      "first_response": "Thanks for connecting/responding! [ACKNOWLEDGE_THEIR_POINT]. Would love to hear more about [THEIR_CHALLENGE]. Do you have 15 minutes for a quick call this week?",
+      "scheduling": "Offer 3 specific times, use Calendly/link if possible",
+      "call_prep": [
+        "Research their LinkedIn thoroughly",
+        "Review recent posts/articles",
+        "Prepare 3-5 thoughtful questions",
+        "Have specific examples ready",
+        "Lead with curiosity, not pitch"
+      ]
+    },
+    "no_response": {
+      "description": "What to do when they don't respond",
+      "patience": "Wait 7-10 days between touches",
+      "value_add": "Each follow-up must provide new value",
+      "graceful_exit": "After 6 touches, send: 'I know you're busy—last thing from me: [FINAL_VALUE]. Best of luck with [PROJECT].'",
+      "move_on": "Focus energy on responsive contacts"
+    },
+    "negative_response": {
+      "description": "What to do if they decline or push back",
+      "gracious_response": "Totally understand—appreciate you letting me know. Best of luck with [PROJECT]!",
+      "learn": "Reflect on what might have been off",
+      "dont": [
+        "Argue or defend",
+        "Ask why they're not interested",
+        "Send follow-up explaining yourself",
+        "Leave bitter comment"
+      ]
+    }
+  },
+  "advanced_tactics": {
+    "thought_leader_hijack": {
+      "description": "Gain visibility through influential posts",
+      "setup": "Set up mobile notifications for key thought leaders",
+      "execution": [
+        "Be in first 10 comments",
+        "Provide substantial, specific insight",
+        "Use your real data/experience",
+        "Connect to broader pattern"
+      ],
+      "benefit": "Their followers (including your targets) see you as expert"
+    },
+    "alumni_network_play": {
+      "description": "Connect with people who left target company",
+      "value": [
+        "Honest cultural insights",
+        "Internal intel on challenges",
+        "Maintained relationships with current employees",
+        "Potential warm introductions"
+      ],
+      "approach": "Hey [NAME], saw you were at [COMPANY]. I'm exploring opportunities there and would love [X] minutes to hear about your experience.",
+      "respect": "They left for a reason—don't push if hesitant"
+    },
+    "indirect_mention": {
+      "description": "Post content without tagging company",
+      "tactic": "Post about their industry/challenges without tagging them",
+      "example": "Fascinating how [INDUSTRY] companies face [SPECIFIC_CHALLENGE]. The [X,XXX] [DATA_POINTS] we analyzed showed...",
+      "benefit": "Their employees will likely see organically, feels less forced"
+    },
+    "mutual_connection_activation": {
+      "description": "Leverage mutual connections strategically",
+      "sequence": [
+        "1. Identify mutual connection",
+        "2. Reach out to mutual: 'Hey, I noticed you know [TARGET]. I'm exploring opportunities at [COMPANY]—any context you can share?'",
+        "3. Don't ask for intro yet (just context)",
+        "4. When connecting with target: 'Hi [NAME], [MUTUAL] mentioned you're doing interesting work on [PROJECT]...'",
+        "5. Only ask for intro if mutual offers"
+      ]
+    },
+    "content_seeding": {
+      "description": "Plant content that surfaces in their searches",
+      "tactics": [
+        "Use hashtags they likely follow",
+        "Write about their company's challenges (without tagging)",
+        "Engage with content their team engages with",
+        "Comment on industry news they care about",
+        "Share frameworks relevant to their problems"
+      ],
+      "goal": "Be discoverable when they search for solutions"
+    }
+  },
+  "ethical_boundaries": {
+    "description": "What NOT to do (respect and authenticity)",
+    "never_do": [
+      "Spam connect (more than 3-5 per day)",
+      "Copy-paste generic messages",
+      "Lie about your experience",
+      "Pretend you've used their product (if you haven't)",
+      "Tag them in irrelevant content",
+      "Comment just to get noticed (not add value)",
+      "Stalk their non-work social media",
+      "Reach out to multiple people same day at same company",
+      "Argue in comments",
+      "Bash competitors publicly",
+      "Like 20 posts in a row from same person",
+      "Send multiple messages without response"
+    ],
+    "always_do": [
+      "Provide genuine value",
+      "Respect their time",
+      "Be honest about your intent",
+      "Only engage where you have real insight",
+      "Space out interactions",
+      "Accept 'no' gracefully",
+      "Give more than you ask",
+      "Maintain professional boundaries",
+      "Follow LinkedIn Terms of Service"
+    ]
+  }
+}

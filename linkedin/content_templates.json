@@ -1,0 +1,239 @@
+{
+  "post_templates": {
+    "pattern_recognition": {
+      "description": "Share patterns observed across multiple companies/projects",
+      "structure": [
+        "[X] companies/projects. Same mistake. Different outcomes.",
+        "",
+        "Company 1: [APPROACH] → [RESULT]",
+        "Company 2: [APPROACH] → [RESULT]",
+        "Company 3: [APPROACH] → [RESULT]",
+        "",
+        "The pattern: [INSIGHT]",
+        "The lesson: [TAKEAWAY]"
+      ],
+      "example": "[3] marketplaces. Same mistake. Different outcomes.\n\nCompany 1: Tried unlimited choice → [30]% retention\nCompany 2: Focused curation → [65]% engagement\nCompany 3: AI-powered matching → [70]% retention\n\nThe pattern: Curation > Choice\nThe lesson: Less overwhelm = better outcomes",
+      "best_day": "Monday",
+      "tags": ["#ProductManagement", "#Lessons", "#Strategy"]
+    },
+    "failure_story": {
+      "description": "Share a mistake and what you learned",
+      "structure": [
+        "Biggest [ROLE] mistake: [COMMON_BELIEF]",
+        "",
+        "They wanted: [REQUEST]",
+        "We built: [SOLUTION]",
+        "Result: [NEGATIVE_OUTCOME]",
+        "",
+        "What worked instead: [ACTUAL_SOLUTION]",
+        "Lesson: [INSIGHT]"
+      ],
+      "example": "Biggest PM mistake: Giving users what they asked for\n\nThey wanted: More filters\nWe built: [47] filter options\nResult: Conversion dropped [40]%\n\nWhat worked instead: [7] curated categories\nLesson: Watch behavior, not surveys",
+      "best_day": "Wednesday",
+      "tags": ["#ProductLessons", "#FailureStories", "#Growth"]
+    },
+    "framework_share": {
+      "description": "Share a framework or mental model you use",
+      "structure": [
+        "My '[FRAMEWORK_NAME]' framework for [PROBLEM]:",
+        "",
+        "1. [STEP] - [BRIEF_EXPLANATION]",
+        "2. [STEP] - [BRIEF_EXPLANATION]",
+        "3. [STEP] - [BRIEF_EXPLANATION]",
+        "4. [STEP] - [BRIEF_EXPLANATION]",
+        "",
+        "Used this to [SPECIFIC_IMPACT].",
+        "",
+        "What frameworks have worked for you?"
+      ],
+      "example": "My 'Collaborative Thermostat' framework for stakeholder buy-in:\n\n1. Identify - Find problem others ignore\n2. Prototype - Build quick solution\n3. Rally - Show data to stakeholders\n4. Deliver - Execute together\n\nUsed this to save $[XXX]K in churn.\n\nWhat frameworks have worked for you?",
+      "best_day": "Friday",
+      "tags": ["#ProductManagement", "#Framework", "#Process"]
+    },
+    "counterintuitive_insight": {
+      "description": "Challenge conventional wisdom with data",
+      "structure": [
+        "Everyone thinks [COMMON_BELIEF].",
+        "",
+        "The data says otherwise.",
+        "",
+        "We analyzed [X,XXX] [DATA_POINTS] and found:",
+        "- [SURPRISING_FINDING_1]",
+        "- [SURPRISING_FINDING_2]",
+        "- [SURPRISING_FINDING_3]",
+        "",
+        "The lesson: [INSIGHT]"
+      ],
+      "example": "Everyone thinks more features = better product.\n\nThe data says otherwise.\n\nWe analyzed [375,000] transactions and found:\n- Simple checkout: [85]% completion\n- Feature-rich checkout: [62]% completion\n- Difference: [23] percentage points\n\nThe lesson: Simplicity wins",
+      "best_day": "Tuesday",
+      "tags": ["#DataDriven", "#ProductInsights", "#Counterintuitive"]
+    },
+    "3_act_story": {
+      "description": "Tell a story with mistake → realization → outcome",
+      "structure": [
+        "The mistake: [WHAT_WENT_WRONG]",
+        "",
+        "The realization: [TURNING_POINT]",
+        "",
+        "The result: [OUTCOME]",
+        "",
+        "If I could go back: [WHAT_TO_DO_INSTEAD]"
+      ],
+      "example": "The mistake: Built what users asked for\n\nThe realization: Users describe problems, not solutions\n\nThe result: [40]% drop in engagement\n\nIf I could go back: Watch behavior, not surveys",
+      "best_day": "Wednesday",
+      "tags": ["#ProductStory", "#Lessons", "#Growth"]
+    },
+    "comparison_post": {
+      "description": "Compare two approaches with real outcomes",
+      "structure": [
+        "[APPROACH_A] vs [APPROACH_B]",
+        "",
+        "Used [A] at [COMPANY_1]:",
+        "Result: [OUTCOME]",
+        "",
+        "Tried [B] at [COMPANY_2]:",
+        "Result: [DIFFERENT_OUTCOME]",
+        "",
+        "Why it matters: [INSIGHT]"
+      ],
+      "example": "Feature factory vs Problem solving\n\nUsed feature factory at [COMPANY_1]:\nResult: [50] features, [20]% engagement\n\nTried problem solving at [COMPANY_2]:\nResult: [10] features, [70]% engagement\n\nWhy it matters: Quality > Quantity",
+      "best_day": "Thursday",
+      "tags": ["#ProductStrategy", "#Comparison", "#Insights"]
+    },
+    "lessons_from_x": {
+      "description": "Share multiple lessons from experiences",
+      "structure": [
+        "[X] lessons from [Y] [EXPERIENCES]:",
+        "",
+        "1. [LESSON] - [CONTEXT]",
+        "2. [LESSON] - [CONTEXT]",
+        "3. [LESSON] - [CONTEXT]",
+        "4. [LESSON] - [CONTEXT]",
+        "5. [LESSON] - [CONTEXT]",
+        "",
+        "The meta-lesson: [OVERARCHING_INSIGHT]"
+      ],
+      "example": "[5] lessons from [3] marketplace launches:\n\n1. Start narrow - Broad = diluted value prop\n2. Solve for supply - Demand follows quality\n3. Measure retention, not growth - Leaky bucket\n4. Talk to users weekly - Not monthly\n5. Ship fast, learn faster - Perfection = delay\n\nThe meta-lesson: Focus beats features",
+      "best_day": "Monday",
+      "tags": ["#ProductLessons", "#Marketplace", "#Startup"]
+    },
+    "industry_trend_observation": {
+      "description": "Comment on industry trends with your perspective",
+      "structure": [
+        "Interesting trend in [INDUSTRY]: [OBSERVATION]",
+        "",
+        "Why it matters:",
+        "- [IMPACT_1]",
+        "- [IMPACT_2]",
+        "- [IMPACT_3]",
+        "",
+        "What I'm watching: [NEXT_THING]"
+      ],
+      "example": "Interesting trend in marketplaces: Verticalization\n\nWhy it matters:\n- Broad platforms losing to niche specialists\n- Users want experts, not generalists\n- Unit economics improve with focus\n\nWhat I'm watching: How horizontal players respond",
+      "best_day": "Tuesday",
+      "tags": ["#IndustryTrends", "#Strategy", "#Future"]
+    },
+    "tool_process_share": {
+      "description": "Share a tool or process that works",
+      "structure": [
+        "Process that's been working: [PROCESS_NAME]",
+        "",
+        "The problem: [CHALLENGE]",
+        "",
+        "The solution:",
+        "- [STEP_1]",
+        "- [STEP_2]",
+        "- [STEP_3]",
+        "",
+        "The result: [OUTCOME]",
+        "",
+        "What processes work for you?"
+      ],
+      "example": "Process that's been working: Weekly user interviews\n\nThe problem: Losing touch with real users\n\nThe solution:\n- Schedule [5] calls every Monday\n- No agenda, just listen\n- Share insights with team Friday\n\nThe result: [3] major pivots from user feedback\n\nWhat processes work for you?",
+      "best_day": "Friday",
+      "tags": ["#ProductProcess", "#UserResearch", "#Productivity"]
+    },
+    "case_study": {
+      "description": "Deep dive on specific project or initiative",
+      "structure": [
+        "Case study: [PROJECT_NAME]",
+        "",
+        "Challenge: [PROBLEM]",
+        "Approach: [SOLUTION]",
+        "Result: [OUTCOME]",
+        "",
+        "What worked:",
+        "- [SUCCESS_FACTOR_1]",
+        "- [SUCCESS_FACTOR_2]",
+        "",
+        "What didn't:",
+        "- [FAILURE_FACTOR_1]",
+        "",
+        "Key lesson: [INSIGHT]"
+      ],
+      "example": "Case study: Retention initiative\n\nChallenge: [30]% churn in first [30] days\nApproach: Onboarding redesign + weekly check-ins\nResult: Churn dropped to [12]%\n\nWhat worked:\n- Personal touch in first week\n- Quick wins in first session\n\nWhat didn't:\n- Email campaigns (ignored)\n\nKey lesson: Human beats automated",
+      "best_day": "Thursday",
+      "tags": ["#CaseStudy", "#ProductManagement", "#Results"]
+    }
+  },
+  "hooks": {
+    "description": "Attention-grabbing first lines for posts",
+    "examples": [
+      "Everyone thinks [X]. The data says otherwise.",
+      "Biggest mistake I made as a PM: [X]",
+      "[X] companies. Same problem. Different solutions.",
+      "Counterintuitive learning: [X]",
+      "The pattern nobody talks about: [X]",
+      "Why [COMMON_APPROACH] fails: [X]",
+      "[X] lessons from [Y] [EXPERIENCES]",
+      "The difference between [A] and [B]: [X]",
+      "What I wish I knew before [X]:",
+      "Unpopular opinion: [X]"
+    ]
+  },
+  "engagement_drivers": {
+    "description": "Tactics to increase comments and shares",
+    "tactics": [
+      "End with a question",
+      "Ask for other perspectives",
+      "Invite people to share experiences",
+      "Use specific numbers (not vague claims)",
+      "Break up text with line breaks",
+      "Keep paragraphs to 1-2 sentences",
+      "Use lists/bullets for readability",
+      "Tag relevant but not spammy hashtags",
+      "Share vulnerability (authentic failures)",
+      "Provide actionable takeaways"
+    ]
+  },
+  "voice_guidelines": {
+    "description": "Maintain consistent voice across content",
+    "principles": {
+      "specific": "Use real numbers, not vague claims",
+      "experienced": "Share what you've actually done",
+      "insightful": "Connect dots others miss",
+      "confident": "No hedging or apologizing",
+      "helpful": "Provide value, don't just promote"
+    },
+    "avoid": [
+      "Buzzwords without substance",
+      "Generic advice anyone could give",
+      "Humble bragging",
+      "Self-promotion without value",
+      "Hedging (maybe, possibly, might)",
+      "Emojis overload",
+      "Vague metrics (many, lots, significant)"
+    ]
+  },
+  "posting_schedule": {
+    "description": "Optimal timing for maximum engagement",
+    "best_days": ["Tuesday", "Wednesday", "Thursday"],
+    "best_times": ["9:00 AM EST", "10:00 AM EST", "11:00 AM EST"],
+    "avoid_times": [
+      "Monday mornings (inbox overload)",
+      "Friday afternoons (checking out)",
+      "Weekends (low engagement)"
+    ],
+    "recommended_frequency": "2-3 posts per week"
+  }
+}
