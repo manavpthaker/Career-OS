@@ -104,6 +104,54 @@ Manav
 
 ---
 
+## Variation 5: Hospitality POS & Payments Ecosystem (Panso + Visa)
+```
+Hi [NAME],
+
+Platforms like Panso are reshaping hospitality payments by unifying POS, guest data, and event sales — all running on rails Visa powers. Having built product in both hospitality and marketplace payments, I find this convergence fascinating. Would love to connect.
+
+Manav
+```
+
+**Why This Works**:
+- Name-drops a specific, emerging platform (Panso) showing you track the ecosystem closely
+- Connects Visa's infrastructure role to real-world hospitality use cases
+- Leverages your unique hospitality + marketplace + payments crossover experience
+- Shows strategic product thinking (convergence of POS data, CRM, and payment rails)
+
+**When to Use**:
+- If the VP works on acceptance solutions, POS integration, or merchant-facing products
+- After Visa announces partnerships or updates to in-person payment infrastructure
+- When the VP engages with hospitality tech or POS-related content
+
+**Context on Panso**:
+- Panso (hellopanso.com) is a hospitality management & CRM platform founded by Britney Ziegler
+- Integrates with Lightspeed POS to sync transaction and guest data
+- Covers event sales, ticketing, marketing (email/SMS), and guest intelligence
+- Represents the trend of hospitality platforms needing unified payment + data layers — exactly what Visa's acceptance solutions enable
+
+---
+
+## Variation 6: POS Infrastructure Angle
+```
+Hi [NAME],
+
+Visa's Tap to Phone SDK and Card Present Connect are changing how hospitality businesses handle in-person payments. I've seen this firsthand building product for hospitality and marketplace operators. Would love to connect.
+
+Manav
+```
+
+**Why This Works**:
+- References specific Visa POS products (Tap to Phone SDK, Card Present Connect)
+- Demonstrates deep knowledge of their product portfolio, not just the brand
+- Your hospitality domain experience is directly relevant
+
+**When to Use**:
+- If the VP oversees in-person/acceptance payment products
+- After Visa launches POS-related features or partnerships
+
+---
+
 ## Notes
 - **Do NOT** mention job seeking in the connection request
 - **Do NOT** ask for referrals or favors
