@@ -15,28 +15,15 @@
 ## Recommended Follow-Up
 
 ```
-Hey Mickey, saw the Q3 numbers — styling and outfit discovery driving 50%+ of Ask Ralph engagement is a strong signal that conversational commerce is working. Curious how the team is thinking about expanding that beyond Polo into other RL brands. Either way, would love to chat if the Digital Strategy & Innovation Lead role is still open.
+Hey Mickey, saw the Q3 numbers. Styling and outfit discovery making up over half of Ask Ralph engagement says a lot about where conversational commerce is headed. Curious how the team is thinking about taking that beyond Polo into the other brands. Would love to chat about the Digital Strategy & Innovation Lead role if it's still open.
 ```
 
 **Why This Works**:
-- Leads with a specific, timely data point (Q3 results, 50%+ engagement stat) — shows you're tracking the business, not just pinging
-- Asks a genuine strategic question (multi-brand expansion) that's relevant to the role
-- Brings the role back up naturally at the end without desperation
-- Follows the playbook rule: each follow-up must provide new value
+- Leads with a specific data point from their latest earnings, shows you're tracking the business
+- Asks a real strategic question (multi-brand expansion is on their roadmap)
+- Brings the role back up naturally at the end
 
-**Timing**: Good to send now — 10 days is within the 7-14 day follow-up window
-
----
-
-## Alternative (Shorter)
-
-```
-Hey Mickey, the Q3 Ask Ralph numbers were impressive — 50%+ engagement in styling and discovery is real validation for conversational commerce. Still very interested in the Digital Strategy & Innovation Lead role if it's active. Happy to chat anytime.
-```
-
-**Why This Works**:
-- More direct, less question-heavy
-- Use if you want to be clearer about intent without a softer strategic question
+**Timing**: Good to send now, 10 days is within the 7-14 day follow-up window
 
 ---
 
